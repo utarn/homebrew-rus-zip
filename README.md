@@ -2,10 +2,11 @@
 
 **The official Homebrew tap for [RUS ZIP](https://github.com/utarn/rus-zip) — a fast, cross-platform archive tool powered by Tar+Zstandard (`.zrus`).**
 
-Add the tap once:
+Add the tap once, then trust it (recent Homebrew versions refuse to load third-party taps until trusted):
 
 ```bash
 brew tap utarn/rus-zip
+brew trust utarn/rus-zip
 ```
 
 **CLI** — installed by the Homebrew *formula* into `$(brew --prefix)/bin`:
