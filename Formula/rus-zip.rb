@@ -1,18 +1,18 @@
 class RusZip < Formula
   desc "Cross-platform compression suite powered by Tar+Zstandard (.zrus)"
   homepage "https://github.com/utarn/rus-zip"
-  version "1.0.7"
+  version "1.0.8"
   license "Proprietary"
 
   on_macos do
     # Apple Silicon only — Intel (osx-x64) builds are discontinued.
-    url "https://github.com/utarn/rus-zip/releases/download/v1.0.7/rus-zip-cli-osx-arm64.zip"
-    sha256 "d4fe08cdc5c388b311a3ea1ee2cbe72aeed30a28c0a1d0698978a9fdd24838e2"
+    url "https://github.com/utarn/rus-zip/releases/download/v1.0.8/rus-zip-cli-osx-arm64.zip"
+    sha256 "e5336145a343cd7cd836f7f2bf524bcba0a2ff2a651660a4f2a1d878522ca9bf"
   end
 
   on_linux do
-    url "https://github.com/utarn/rus-zip/releases/download/v1.0.7/rus-zip-cli-linux-x64"
-    sha256 "cbb3f626d3fc8d9ebdb62944ba51eb1663ec0271cc9b768b16b8299d7f2b5e90"
+    url "https://github.com/utarn/rus-zip/releases/download/v1.0.8/rus-zip-cli-linux-x64"
+    sha256 "d51f154351f97e2505b1fac543cd2a4396e5304c88e12721c178d3c3a9505569"
   end
 
   def install
