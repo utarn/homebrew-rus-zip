@@ -3,7 +3,7 @@ cask "rus-zip" do
 
   # Apple Silicon only — Intel (osx-x64) builds are discontinued.
   url "https://github.com/utarn/rus-zip/releases/download/v1.0.8/RusZip-mac-arm64.zip"
-  sha256 "4493a75b8ad7a5d0b21f7385723f58f332a0fcb1d75f43b69afda6dad91d813e"
+  sha256 "8f079ea1604a91243101713b18bac76607540725949d81359e7200272ec95df6"
 
   name "RUS ZIP"
   desc "Modern cross-platform archive utility powered by Tar+Zstandard (.zrus) and Avalonia"
